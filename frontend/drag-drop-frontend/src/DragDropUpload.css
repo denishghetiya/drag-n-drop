@@ -1,0 +1,55 @@
+.drag-drop-area {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    transition: border-color 0.3s ease;
+    background-color: #f9f9f9; 
+  }
+  
+  .drag-drop-area:hover {
+    border-color: #4caf50; 
+  }
+  
+  .drag-drop-area.dragging {
+    border-color: #2196f3; 
+  }
+  
+  .drag-drop-text {
+    color: #888;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .upload-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background-color: #45a049;
+  }
+  
+  .upload-btn-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  

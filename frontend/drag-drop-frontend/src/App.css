@@ -1,0 +1,23 @@
+.App {
+  text-align: center;          
+  font-family: Arial, sans-serif; 
+  background-color: #f0f0f0;   
+  padding: 20px;              
+  min-height: 100vh;           
+}
+
+h1 {
+  font-size: 2.5em;            
+  color: #333;              
+  margin-bottom: 20px;      
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;           
+  }
+
+  .drag-drop-area {
+    width: 90%;              
+  }
+}
